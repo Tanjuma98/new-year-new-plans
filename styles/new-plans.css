@@ -1,34 +1,39 @@
-*{
+* {
     margin: 0;
     font-family: 'Work Sans', sans-serif;
 }
+
 /* header-banner styles */
-.header{
+.header {
     height: 800px;
     background-image: url(../images/banner/banner1.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
-.banner{
+
+.banner {
     padding-top: 350px;
     margin-left: 800px;
     margin-right: 200px;
     text-align: end;
 }
-.banner-title{
+
+.banner-title {
     text-align: end;
     margin-bottom: 25px;
     font-weight: 800;
     font-size: 60px;
     color: #141414;
 }
-.banner-description{
+
+.banner-description {
     text-align: end;
     margin-bottom: 25px;
     color: #444343;
 }
-.banner-button{
+
+.banner-button {
     height: 60px;
     border: 0;
     border-radius: 5px;
@@ -38,34 +43,184 @@
     font-size: 18px;
     background-color: #532e3a;
 }
+
 /* failure section styles */
-.failure{
+.failure {
     display: flex;
     align-items: center;
     gap: 60px;
 }
-.failure-img{
+
+.failure-img {
     margin-top: 130px;
     margin-left: 200px;
 }
-.failure-info{
+
+.failure-info {
     margin-top: 220px;
     margin-right: 200px;
     text-align: start;
     padding: 120px;
 }
-.failure-title{
+
+.failure-title {
     margin-bottom: 30px;
     font-weight: 700;
     font-size: 48px;
     color: #141414;
 }
-.failure-description{
+
+.failure-description {
     margin-bottom: 15px;
     color: #444343;
 }
-.failure-list{
+
+.failure-list {
     color: #444343;
     list-style: square;
 }
+
 /* plan section styles */
+.plan,
+.motto {
+    margin-top: 130px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.plan-title,
+.motto-title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 48px;
+    color: #141414;
+    margin-bottom: 40px;
+}
+
+.plan-list,
+.motto-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-left: 220px;
+    margin-right: 220px;
+    text-align: center;
+}
+
+.plan1-title,
+.plan2-title,
+.plan3-title,
+.plan4-title,
+.motto1-title,
+.motto2-title,
+.motto3-title,
+.motto4-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    font-size: 32px;
+    color: #141414;
+}
+
+.plan1-description,
+.plan2-description,
+.plan3-description,
+.plan4-description,
+.motto1-description,
+.motto2-description,
+.motto3-description,
+.motto4-description {
+    font-size: 18px;
+    color: #444343;
+}
+
+/* section positive-mindset styles */
+.positive-mindset {
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+    margin-left: 400px;
+    margin-right: 400px;
+    background-image: linear-gradient(to right, #532e3a, #876871, #a0868c);
+    height: 300px;
+    width: 1000px;
+}
+
+.positive-mindset-title {
+    padding-top: 100px;
+    padding-left: 36px;
+    margin-bottom: 18px;
+    text-align: start;
+    font-weight: 700;
+    font-size: 32px;
+    color: white;
+}
+
+.positive-mindset-btn {
+    color: #532e3a;
+    background-color: white;
+    height: 60px;
+    border: 0;
+    border-radius: 5px;
+    padding: 16px 22px;
+    text-align: start;
+    font-size: 18px;
+    margin-left: 36px;
+}
+/* footer styles */
+.footer-container{
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    background-color: #151514;
+}
+.future, .subscribe{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 60px;
+}
+.future-title{
+    color: white;
+    text-align: start;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.future-description{
+    color: white;
+    text-align: start;
+    margin-bottom: 10px;
+}
+.footer-img{
+    margin-right: 10px;
+}
+.subscribe-title{
+    color: white;
+    text-align: start;
+    font-size: 32px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+input[type="email"]{
+    text-align: start;
+    background-color: #151514;
+    color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 18px 14px;
+    width: 250px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.subscribe-button{
+    color: #532e3a;
+    background-color: white;
+    height: 60px;
+    width: 150px;
+    border: 0;
+    border-radius: 5px;
+    padding: 16px 22px;
+    text-align: start;
+    font-size: 18px;
+}
